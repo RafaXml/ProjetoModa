@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    height:100vh;
+    width:100%;
+    background-color:black;
+}
+.bg-image{
+    height: 94vh;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 6vh;
+    margin: auto;
+}
+.fav{
+    object-fit:none;
+}
+
+ul li a{
+    text-decoration:none;
+    color:white;
+    text-transform: uppercase;
+    text-shadow: 1px 1px rgb(255, 191, 80);
+    letter-spacing: 1px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    
+}
+ul li{
+    padding: 20px;
+}
+ul li:hover{
+    background-color:rgba(255, 255, 255, 0.612);
+}
+main{
+    scroll-behavior:smooth;
+    overflow-y:auto;
+}
+section{
+    margin-top: 70px;
+    width: 100%;
+    height: 75vh;
+   
+}
+.first-container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.first-container article h1{
+    font-size:40px;
+    text-align: center;
+    margin-bottom: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+}
+.first-container article p{
+    margin-top: 40px;
+    text-align:center;
+    font-size:22px;
+}
+.first-container div{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+.first-container div img{
+    width: 300px;
+    height: 300px;
+}
+.first-container div .perso1{
+    display: flex;
+    flex-direction: column;
+}
+.first-container div figcaption{
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align:center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.first-container div .perso1 p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align:center;
+    color:#ccc;
+}
+.first-container div .perso2{
+    display: flex;
+    flex-direction: column;
+}
+.first-container div .perso2 p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align:center;
+    color:#ccc;
+}
+
+.first-container div .perso3{
+    display: flex;
+    flex-direction: column;
+}
+.first-container div .perso3 p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align:center;
+    color:#ccc;
+}
+.second-container{
+    background-image: url('/imagens/bg_detalhe.jpg');
+    background-size:cover;
+    color:white;
+
+}
+.second-container article{
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.second-container article h1{
+    font-size:55px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.second-container article p{
+    width: 65%;
+    padding-top: 50px;
+    font-size: 27px;
+
+}
+.three-container{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+.three-container iframe{
+    border: 1px solid black;
+    width: 100%;
+    height: 666px;
+}
+.three-container h2{
+    text-align:center;
+}
+footer{
+    font-size: 20px;
+    margin-top: 30px;
+    background-color:#ccc;
+    text-align: center;
+    padding: 20px;
+}
