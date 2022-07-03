@@ -120,7 +120,7 @@ section{
     color:#ccc;
 }
 .second-container{
-    background-image: url('/imagens/bg_detalhe.jpg');
+    background-image: url('../imagens/bg_detalhe.jpg');
     background-size:cover;
     color:rgb(255, 255, 255);
 
